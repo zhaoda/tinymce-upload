@@ -1,7 +1,7 @@
 A simple upload plugin for tinymce 4.0+
 =======================================
 
-Select a file to upload directly, is very simple, and very much like tumblr's editor
+Select a file to upload directly, for [tinymce 4.0+](http://www.tinymce.com) is very simple, and very much like [tumblr](http://www.tumblr.com/)'s editor
 
 How to use
 ----------
