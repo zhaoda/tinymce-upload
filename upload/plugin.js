@@ -33,10 +33,10 @@ tinymce.PluginManager.add('upload', function(editor) {
 				iframeId = self.uid + '_iframe',
 				editorName = self.uid + '_editor',
 				html = '<form action="' + formAction + '" target="' + iframeId + '" method="post" accept-charset="utf-8" enctype="multipart/form-data">\
-						<input type="file" name="' + formFileName + '" value="" />\
-						<input type="hidden" name="editor" value="' + editorName + '" />\
-						</form>\
-						<iframe id="' +iframeId + '" name="' +iframeId + '"></iframe>'
+<input type="file" name="' + formFileName + '" value="" />\
+<input type="hidden" name="editor" value="' + editorName + '" />\
+</form>\
+<iframe id="' +iframeId + '" name="' +iframeId + '"></iframe>'
 
 			//register a global variable of the editor
 			window[editorName] = editor
