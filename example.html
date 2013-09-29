@@ -4,6 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>tinymce upload</title>
+<link type="text/css" rel="stylesheet" href="http://tinymce.cachefly.net/4.0/skins/lightgray/content.min.css" />
 <link type="text/css" rel="stylesheet" href="upload/plugin.css" />
 <script src="http://tinymce.cachefly.net/4.0/tinymce.min.js"></script>
 <!--script src="../tinymce/tinymce.min.js"></script-->
@@ -26,8 +27,11 @@ tinymce.init({
 </head>
 <body>
 <div style="width: 600px; margin: 20px auto;">
+  <h1>tinymce upload</h1>
+  <p>A simple upload plugin for tinymce 4.0+, <a href="https://github.com/zhaoda/tinymce-upload">view source on github</a>.</p>
+  <p>The following example:</p>
 	<form method="post" action="post.php">
-		<textarea name="content">Click the upload button to upload a file</textarea>
+		<textarea name="content">Click the upload button <input type="button" style="width: 19px; height: 16px; border: none; background: url(upload/upload_icon.png);" /> to upload a file</textarea>
 	</form>
 </div>
 </body>
