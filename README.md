@@ -21,7 +21,7 @@ Released under MIT License.
 
 - - -
 
-适用于tinymce编辑器的简单文件上传插件
+适用于tinymce编辑器的文件上传插件
 =======================================
 
 在 [tinymce 4.0+](http://www.tinymce.com) 编辑器中选择文件后自动上传，类似于 [tumblr](http://www.tumblr.com/) 网站发布内容时上传图片的功能。
