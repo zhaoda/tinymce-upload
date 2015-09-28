@@ -17,4 +17,4 @@ Refer to upload.php to write your own callback methods.
 License
 -------
 
-Released under MIT License.
+Released under MIT License
